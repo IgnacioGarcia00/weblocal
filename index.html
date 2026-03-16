@@ -16,8 +16,7 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="#inicio" aria-label="Ir al inicio">
-          <span class="brand-mark">W</span>
-          <span class="brand-text">weblocal.es</span>
+          <img src="assets/images/web-local-logo.png" alt="weblocal.es logo" class="brand-logo">
         </a>
 
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
@@ -44,96 +43,116 @@
             <h1>Haz que tu negocio se vea profesional y te contacten más fácil.</h1>
             <p class="hero-text">
               Creo webs limpias, rápidas y claras para pequeños comercios y autónomos.
-              Páginas pensadas para transmitir confianza, verse perfectas en móvil y convertir visitas en llamadas, WhatsApps o reservas.
+              Páginas pensadas para transmitir confianza y convertir visitas en llamadas, WhatsApps o reservas.
             </p>
 
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#contacto">Quiero mi web</a>
-              <a class="btn btn-secondary" href="#trabajos">Ver ejemplos</a>
-            </div>
+              <a class="btn btn-primary btn-glow" href="#contacto">
+                Quiero mi web
+                <span class="btn-arrow">↗</span>
+              </a>
 
-            <ul class="hero-points" aria-label="Ventajas principales">
-              <li>Diseño profesional</li>
-              <li>Optimizada para móvil</li>
-              <li>Entrega clara y sin líos</li>
-            </ul>
+              <a class="btn btn-secondary btn-soft" href="#trabajos">
+                Ver ejemplos
+              </a>
+            </div>
           </div>
 
           <div class="hero-visual reveal">
-            <div class="mockup-card floating-card">
-              <div class="browser-bar">
-                <span></span><span></span><span></span>
-              </div>
-              <div class="mockup-content">
-                <div class="mini-badge">Ejemplo de web</div>
-                <h2>Hamburguesería de barrio</h2>
-                <p>Menú, reservas, ubicación, botones de pedido y una imagen mucho más cuidada desde móvil.</p>
-                <div class="mockup-pills">
-                  <span>Reservas</span>
-                  <span>WhatsApp</span>
-                  <span>Mapa</span>
-                </div>
-                <div class="mockup-panel">
-                  <div class="panel-left"></div>
-                  <div class="panel-right">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="stat-chip chip-1">
-              <strong>+ confianza</strong>
-              <span>Imagen online más seria</span>
-            </div>
-
-            <div class="stat-chip chip-2">
-              <strong>Móvil primero</strong>
-              <span>Diseño responsive</span>
-            </div>
           </div>
         </div>
       </section>
 
       <section class="trusted">
-        <div class="container trusted-row reveal">
-          <p>Ideal para</p>
-          <div class="trusted-tags">
-            <span>Restaurantes</span>
-            <span>Peluquerías</span>
-            <span>Clínicas</span>
-            <span>Tiendas</span>
-            <span>Autónomos</span>
-            <span>Negocios de barrio</span>
+        <div class="container reveal ideal-grid">
+
+          <div class="sector-spotlight">
+            <h2 class="sector-title">Ideal para</h2>
+
+            <div class="sector-stage" aria-live="polite">
+              <article class="sector-card is-active">
+                <span class="sector-icon">🍔</span>
+                <div class="sector-content">
+                  <h3>Restaurantes</h3>
+                  <p>Menú, reservas, pedidos y contacto rápido.</p>
+                </div>
+              </article>
+
+              <article class="sector-card">
+                <span class="sector-icon">✂️</span>
+                <div class="sector-content">
+                  <h3>Peluquerías</h3>
+                  <p>Servicios, horarios, ubicación y citas por WhatsApp.</p>
+                </div>
+              </article>
+
+              <article class="sector-card">
+                <span class="sector-icon">🏥</span>
+                <div class="sector-content">
+                  <h3>Clínicas</h3>
+                  <p>Imagen profesional, servicios y solicitud de cita.</p>
+                </div>
+              </article>
+
+              <article class="sector-card">
+                <span class="sector-icon">🛍️</span>
+                <div class="sector-content">
+                  <h3>Tiendas</h3>
+                  <p>Presentación de productos, ubicación y contacto.</p>
+                </div>
+              </article>
+
+              <article class="sector-card">
+                <span class="sector-icon">💼</span>
+                <div class="sector-content">
+                  <h3>Autónomos</h3>
+                  <p>Una web clara para explicar servicios y captar clientes.</p>
+                </div>
+              </article>
+
+              <article class="sector-card">
+                <span class="sector-icon">🏪</span>
+                <div class="sector-content">
+                  <h3>Negocios de barrio</h3>
+                  <p>Presencia online cercana, clara y fácil de encontrar.</p>
+                </div>
+              </article>
+            </div>
           </div>
+          <div class="ideal-image">
+              <img src="assets/images/imagen-ideal-para.png" alt="Ejemplo web negocio local">
+            </div>
         </div>
       </section>
 
       <section id="servicios" class="section">
         <div class="container">
           <div class="section-heading reveal">
-            <p class="eyebrow">Servicios</p>
-            <h2>Soluciones simples para negocios que necesitan presencia online.</h2>
+            <h2>Soluciones simples para negocios locales que necesitan presencia online.</h2>
             <p>No se trata solo de “tener una web”, sino de que tu negocio se vea mejor y resulte más fácil de contactar.</p>
           </div>
 
           <div class="cards-grid">
             <article class="service-card reveal">
-              <div class="card-icon">01</div>
+              <div class="service-icon">
+                <img src="assets/images/icon-presentacion.png" alt="">
+              </div>
               <h3>Web de presentación</h3>
               <p>Una página clara y profesional para mostrar quién eres, qué haces, dónde estás y cómo pueden contactarte.</p>
             </article>
 
             <article class="service-card reveal">
-              <div class="card-icon">02</div>
+              <div class="service-icon">
+                <img src="assets/images/icon-landing.png" alt="">
+              </div>
               <h3>Landing para captar clientes</h3>
               <p>Diseño enfocado a llamadas, WhatsApp, formularios, reservas o pedidos según el tipo de negocio.</p>
             </article>
 
             <article class="service-card reveal">
-              <div class="card-icon">03</div>
+              <div class="service-icon">
+                <img src="assets/images/icon-renovacion.png" alt="">
+              </div>
               <h3>Renovación de web antigua</h3>
               <p>Si tu página actual se ve vieja o no se adapta bien al móvil, la modernizo con un diseño más limpio y actual.</p>
             </article>
@@ -144,36 +163,43 @@
       <section id="trabajos" class="section section-soft">
         <div class="container">
           <div class="section-heading reveal">
-            <p class="eyebrow">Ejemplos</p>
-            <h2>Así podría verse la web de un negocio local.</h2>
-            <p>Puedes sustituir estos bloques por proyectos reales a medida que vayas cerrando clientes.</p>
+            <h2>Así podría verse la web de tu negocio local.</h2>
           </div>
 
           <div class="portfolio-grid">
-            <article class="portfolio-card reveal">
-              <div class="portfolio-top portfolio-top-1"></div>
+            <article class="portfolio-card reveal"
+              data-gallery='["assets/images/HMT/hmt-1.png","assets/images/HMT/hmt-2.png","assets/images/HMT/hmt-3.png"]'>
+              <div class="portfolio-top">
+                <img src="assets/images/HMT/hmt-1.png" alt="Web para consulta de psicoterapia">
+              </div>
               <div class="portfolio-body">
-                <span class="portfolio-label">Restauración</span>
+                <h3>Web para consulta psicoterapia</h3>
+                <p>Pacientes, opiniones y consultas.</p>
+                <button class="portfolio-open" type="button">Ver galería</button>
+              </div>
+            </article>
+
+            <article class="portfolio-card reveal"
+              data-gallery='["assets/images/Mikes/burger-1.png","assets/images/Mikes/burger-2.png","assets/images/Mikes/burger-3.png", "assets/images/Mikes/burger-4.png"]'>
+              <div class="portfolio-top">
+                <img src="assets/images/Mikes/burger-1.png" alt="Web para hamburguesería">
+              </div>
+              <div class="portfolio-body">
                 <h3>Web para hamburguesería</h3>
                 <p>Menú, reservas, opiniones, ubicación y botones de pedido a domicilio.</p>
+                <button class="portfolio-open" type="button">Ver galería</button>
               </div>
             </article>
 
-            <article class="portfolio-card reveal">
-              <div class="portfolio-top portfolio-top-2"></div>
-              <div class="portfolio-body">
-                <span class="portfolio-label">Salud y bienestar</span>
-                <h3>Web para clínica o consulta</h3>
-                <p>Servicios, presentación profesional, formulario de cita y confianza desde el primer vistazo.</p>
+            <article class="portfolio-card reveal"
+              data-gallery='["assets/images/Reca2/reca2-1.png","assets/images/Reca2/reca2-2.png","assets/images/Reca2/reca2-3.png"]'>
+              <div class="portfolio-top">
+                <img src="assets/images/Reca2/reca2-1.png" alt="Proyecto digital / app">
               </div>
-            </article>
-
-            <article class="portfolio-card reveal">
-              <div class="portfolio-top portfolio-top-3"></div>
               <div class="portfolio-body">
-                <span class="portfolio-label">Servicios</span>
-                <h3>Web para autónomo</h3>
-                <p>Una página sencilla para explicar servicios, mostrar experiencia y recibir contactos.</p>
+                <h3>App para autónomo</h3>
+                <p>Una aplicación móvil para explicar servicios, mostrar experiencia y recibir clientes.</p>
+                <button class="portfolio-open" type="button">Ver galería</button>
               </div>
             </article>
           </div>
@@ -183,7 +209,6 @@
       <section id="proceso" class="section">
         <div class="container">
           <div class="section-heading reveal">
-            <p class="eyebrow">Proceso</p>
             <h2>Un proceso sencillo, sin complicaciones técnicas.</h2>
           </div>
 
@@ -218,14 +243,17 @@
       <section class="section section-soft">
         <div class="container about-grid">
           <div class="about-copy reveal">
-            <p class="eyebrow">Sobre weblocal.es</p>
             <h2>Presencia online clara para negocios reales.</h2>
             <p>
               weblocal.es nace con una idea simple: ayudar a pequeños comercios y autónomos a tener una web moderna,
               agradable y pensada para su día a día, sin complicaciones innecesarias.
             </p>
             <p>
-              El enfoque es directo: diseño limpio, móvil bien resuelto, mensajes claros y una imagen que genere confianza.
+              El enfoque es directo: diseño limpio, móvil bien resuelto, mensajes claros y una imagen que genere confianza de tu negocio.
+            </p>
+            <p class="about-highlight">
+              No dependas solo de Instagram o Facebook para tu negocio.
+              Una web profesional transmite más confianza y facilita que tus clientes te encuentren y te contacten.
             </p>
           </div>
 
@@ -248,15 +276,24 @@
         <div class="container contact-box reveal">
           <div class="contact-copy">
             <p class="eyebrow">Contacto</p>
-            <h2>¿Tienes un negocio y quieres una web que transmita confianza?</h2>
+            <h2>¿Tienes un negocio y quieres una web que transmita confianza y atraiga a clientes?</h2>
             <p>
-              Escríbeme y cuéntame qué necesitas. Esta sección está lista para que pongas tu WhatsApp, tu email y el enlace a tu formulario.
+              Escríbeme y cuéntame qué necesitas.
             </p>
           </div>
 
           <div class="contact-actions">
             <a class="btn btn-primary" href="mailto:hola@weblocal.es">hola@weblocal.es</a>
-            <a class="btn btn-secondary" href="https://wa.me/34600000000" target="_blank" rel="noreferrer">WhatsApp</a>
+
+            <a 
+              class="btn btn-secondary whatsapp-btn"
+              href="https://wa.me/34685984862?text=Hola%20he%20visto%20tu%20web%20en%20weblocal.es%20y%20me%20gustar%C3%ADa%20informaci%C3%B3n%20para%20hacer%20una%20web%20para%20mi%20negocio."
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="assets/images/whatsapp-logo.svg" alt="WhatsApp" class="whatsapp-icon">
+              WhatsApp
+            </a>
           </div>
         </div>
       </section>
@@ -264,12 +301,61 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>© <span id="year"></span> weblocal.es · Webs para pequeños comercios y autónomos</p>
-        <a href="#inicio">Volver arriba</a>
+        <p>© <span id="year"></span> weblocal.es · Webs para pequeños comercios locales y autónomos</p>
+        <a href="#inicio" class="back-top">↑</a>
       </div>
     </footer>
   </div>
 
-  <script src="script.js"></script>
+  <div class="portfolio-lightbox" id="portfolioLightbox" aria-hidden="true">
+    <div class="portfolio-lightbox-backdrop"></div>
+
+    <div class="portfolio-lightbox-dialog" role="dialog" aria-modal="true" aria-label="Galería del proyecto">
+      <button class="portfolio-lightbox-close" type="button" aria-label="Cerrar galería">×</button>
+
+      <button class="portfolio-lightbox-prev" type="button" aria-label="Imagen anterior">‹</button>
+
+      <div class="portfolio-lightbox-media">
+        <img id="portfolioLightboxImage" src="" alt="Captura del proyecto">
+      </div>
+
+      <button class="portfolio-lightbox-next" type="button" aria-label="Siguiente imagen">›</button>
+
+      <div class="portfolio-lightbox-counter" id="portfolioLightboxCounter">1 / 3</div>
+    </div>
+  </div>
+
+  <a
+    class="floating-whatsapp"
+    href="https://wa.me/34685984862?text=Hola%2C%20he%20visto%20tu%20web%20en%20weblocal.es%20y%20me%20gustar%C3%ADa%20informaci%C3%B3n%20para%20crear%20una%20web%20para%20mi%20negocio."
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Abrir WhatsApp"
+  >
+    <img src="assets/images/whatsapp-logo.svg" alt="" class="floating-whatsapp-icon">
+    <span>¿Hablamos?</span>
+  </a>
+
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
+  <div class="cookie-content">
+    <div class="cookie-copy">
+      <p class="cookie-title">Cookies y analítica</p>
+      <p class="cookie-text">
+        Usamos cookies para medir visitas y mejorar la experiencia de navegación. Puedes aceptar o rechazar su uso.
+      </p>
+    </div>
+
+    <div class="cookie-buttons">
+      <button id="cookie-reject" class="cookie-btn cookie-reject" type="button">
+        Rechazar
+      </button>
+
+      <button id="cookie-accept" class="cookie-btn cookie-accept" type="button">
+        Aceptar
+      </button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
