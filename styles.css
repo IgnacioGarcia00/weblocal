@@ -1425,3 +1425,31 @@ a {
     filter: brightness(0) invert(1);
   }
 }
+
+.sector-links-grid {
+  align-items: stretch;
+}
+
+.sector-link-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.sector-link-card h3 {
+  margin: 0;
+}
+
+.sector-link-card h3 a {
+  color: inherit;
+}
+
+.sector-link {
+  margin-top: auto;
+  font-weight: 700;
+  color: var(--primary-strong);
+}
+
+.sector-link:hover {
+  text-decoration: underline;
+}
