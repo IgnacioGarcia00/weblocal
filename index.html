@@ -63,6 +63,23 @@
 
     <main>
       <section id="inicio" class="hero hero-home">
+        <div class="hero-media" aria-hidden="true">
+          <video class="hero-video" autoplay muted loop playsinline preload="auto">
+            <source src="assets/images/video-hero.mp4" type="video/mp4">
+          </video>
+          <div class="hero-overlay hero-overlay-dark"></div>
+          <div class="hero-overlay hero-overlay-tint"></div>
+          <div class="hero-overlay hero-overlay-glow"></div>
+        </div>
+
+        <div class="hero-atmosphere" aria-hidden="true">
+          <span class="hero-orb hero-orb-a"></span>
+          <span class="hero-orb hero-orb-b"></span>
+          <span class="hero-orb hero-orb-c"></span>
+          <span class="hero-line hero-line-a"></span>
+          <span class="hero-line hero-line-b"></span>
+        </div>
+
         <div class="container hero-grid">
           <div class="hero-copy reveal">
             <p class="eyebrow">Webs para negocios locales</p>
@@ -81,22 +98,6 @@
               <a class="btn btn-secondary btn-soft" href="#trabajos">
                 Ver ejemplos
               </a>
-            </div>
-          </div>
-
-          <div class="hero-visual reveal" aria-hidden="true">
-            <div class="hero-showcase">
-              <div class="hero-showcase-main">
-                <img src="assets/images/HMT/hmt-1.png" alt="">
-              </div>
-              <div class="hero-showcase-side">
-                <div class="hero-showcase-card">
-                  <img src="assets/images/Mikes/burger-2.png" alt="">
-                </div>
-                <div class="hero-showcase-card">
-                  <img src="assets/images/Reca2/reca2-1.png" alt="">
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -158,10 +159,6 @@
               </article>
             </div>
           </div>
-          <div class="ideal-image">
-              <img src="assets/images/imagen-ideal-para.png" alt="Ejemplo web negocio local">
-            </div>
-        </div>
       </section>
 
       <section id="servicios" class="section">
@@ -284,7 +281,11 @@
         <div class="container">
           <div class="section-heading reveal">
             <h2>Páginas específicas por sector para atacar búsquedas con intención real.</h2>
-            <p>Además de la home general, WebLocal cuenta con páginas pensadas para sectores concretos. Esto ayuda a trabajar mejor el SEO, mejorar el enlazado interno y hacer que cada negocio se vea reflejado en una propuesta más específica.</p>
+            <ul class="section-checklist">
+              <li>Trabajar mejor el SEO</li>
+              <li>Mejorar el enlazado interno</li>
+              <li>Mostrar cada negocio con una propuesta más específica</li>
+            </ul>
           </div>
 
           <div class="cards-grid sector-links-grid">
@@ -377,7 +378,6 @@
       <section id="contacto" class="section contact-section">
         <div class="container contact-box reveal">
           <div class="contact-copy">
-            <p class="eyebrow">Contacto</p>
             <h2>¿Tienes un negocio y quieres una web que transmita confianza y atraiga a clientes?</h2>
             <p>
               Escríbeme y cuéntame qué necesitas.
